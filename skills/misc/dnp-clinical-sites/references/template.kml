@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>DNP Clinical Sites</name>
+    <Folder>
+      <name>REGION_NAME - YYYY-MM-DD</name>
+      <Placemark>
+        <name>Example Community Health Center</name>
+        <address>123 Main St, Sacramento, CA 95814</address>
+        <description>
+          Phone: (555) 123-4567
+          Website: https://example.org
+          Note: FQHC with a primary care outpatient clinic; plausible FNP placement.
+          Source: https://findahealthcenter.hrsa.gov/example
+        </description>
+      </Placemark>
+      <!-- Repeat one Placemark per candidate site. Do not add <Point><coordinates> -
+           Google My Maps geocodes the <address> field automatically on import. -->
+    </Folder>
+  </Document>
+</kml>
